@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yadier.quesada.mayacalendar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="yadier.quesada.mayacalendar.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.LunaHoy"
+            android:label="@string/title_activity_luna_hoy"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.CalendarioActivity"
+            android:label="@string/title_activity_calendario"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.LunaHoy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.LunaHoy" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.Los13tonosActivity"
+            android:label="@string/title_activity_los13tonos"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.Los2sellosActivity"
+            android:label="@string/title_activity_los2sellos"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.CalculadoraMayaActivity"
+            android:label="@string/title_activity_calculadora_maya"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.TzolkinActivity"
+            android:label="@string/title_activity_tzolkin"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.EncuentraKinActivity"
+            android:label="@string/title_activity_encuentra_kin"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.OndaEncantadaActivity"
+            android:label="@string/title_activity_onda_encantada"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="yadier.quesada.mayacalendar.Los7plasmas_radialesActivity"
+            android:label="@string/title_activity_los7plasmas_radiales"
+            android:screenOrientation="portrait"
+            android:parentActivityName="yadier.quesada.mayacalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yadier.quesada.mayacalendar.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

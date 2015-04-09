@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:background="@color/amarillo"
+        android:id="@+id/frame_dia"
+         >
+
+        <TextView
+            android:id="@+id/num_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/rojo"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dia_gregoriano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="8/10"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="3dp"
+            android:textSize="8sp"
+            android:text="tono"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/portal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:text="X"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/imagen_sello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/ic_dragon_rojo" />
+
+        <TextView
+            android:id="@+id/num_kin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="45dp"
+            android:layout_weight="0.30"
+            android:text="119"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/azul"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/textViewKin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/azul"
+            android:textSize="9sp" 
+            android:text="kin" />
+
+        <ImageView
+            android:id="@+id/tipo_luna"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/no_luna" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maya Calendar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Leyenda</string>
+    <string name="menu1">Luna de Hoy</string>
+    <string name="menu2">Onda Encantada actual</string>
+    <string name="menu3">Kin de hoy</string>
+    <string name="menu4">Encuentra tu Kin</string>
+    <string name="menu5">Los 20 Sellos Solares.</string>
+    <string name="menu6">Los 13 Tonos Galácticos.</string>
+    <string name="menu7">Los 7 Plasmas Radiales</string>
+    <string name="menu8">Tzolkin</string>
+    <string name="menu9">Calculadora Maya</string>
+    <string name="title_activity_luna_hoy">LunaHoy</string>
+    <string name="luna_hoy1">Primera Luna Magnética</string>
+    <string name="luna_hoy2">Segunda Luna Lunar</string>
+    <string name="luna_hoy3">Tercera Luna Eléctrica</string>
+    <string name="luna_hoy4">Cuarta Luna Autoexistente</string>
+    <string name="luna_hoy5">Quinta Luna Entonada</string>
+    <string name="luna_hoy6">Sexta Luna Rítmica</string>
+    <string name="luna_hoy7">Séptima Luna Resonante</string>
+    <string name="luna_hoy8">Octava Luna Galáctica</string>
+    <string name="luna_hoy9">Novena Luna Solar</string>
+    <string name="luna_hoy10">Décima Luna Planetario</string>
+    <string name="luna_hoy11">Undécima Luna Espectral</string>
+    <string name="luna_hoy12">Duodécima Luna Cristal</string>
+    <string name="luna_hoy13">Treceava Luna Cósmica</string>
+    <string name="title_activity_calendario">Calendario Maya</string>
+    <string name="ayuda">Información</string>
+    <string name="title_activity_los13tonos">Los 13 tonos</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_los7plasmas">Los 7 plasmas </string>
+    <string name="title_activity_los2sellos">Los 20 sellos</string>
+    <string name="title_activity_calculadora_maya">Calculadora Maya</string>
+    <string name="title_activity_tzolkin">Tzolkin </string>
+    <string name="title_activity_encuentra_kin">Encuentra tu Kin</string>
+    <string name="title_activity_onda_encantada">Onda Encantada actual</string>
+    <string name="title_activity_los7plasmas_radiales">Los 7 plasmas radiales</string>
+    <string name="totem1">Murciélago</string>
+    <string name="totem2">Escorpión</string>    
+    <string name="totem3">Venado</string>
+    
+    <string name="totem4">Halcón</string>
+    <string name="totem5">Conejo</string>
+    <string name="totem6">Mono</string>
+    <string name="totem7">Serpiente</string>
+    <string name="totem8">perro</string>
+    <string name="totem9">Tortuga</string>
+    <string name="totem10">Búho</string>
+    <string name="totem11">Jaguar</string>
+    <string name="totem12">Lagarto</string>
+    <string name="totem13">Pavo Real</string>
+    <string name="Proposito">Propósito:</string>
+    <string name="Fechas">Fechas:</string>
+    <string name="Totem">Animal Totem:</string>
+    
+</resources>

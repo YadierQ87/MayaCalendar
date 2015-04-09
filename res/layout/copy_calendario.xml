@@ -1,0 +1,118 @@
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="88dp"
+       android:layout_height="88dp"
+       android:background="@color/gris"
+       android:orientation="horizontal" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            >
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                 >
+
+                <TextView
+                    android:id="@+id/num_dia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/rojo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/dia_gregoriano"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="8/10"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/portal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:text="X"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/tono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="18dp"
+                    android:text="tono"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/tipo_luna"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/no_luna" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                 >
+
+                <ImageView
+                    android:id="@+id/imagen_sello"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_dragon_rojo" />
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textViewKin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="kin"
+                        android:textAlignment="center"
+                        android:textColor="@color/azul"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/num_kin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="119"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/azul"
+                        android:textSize="9sp" />
+                </TableRow>
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
